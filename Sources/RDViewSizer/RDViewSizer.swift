@@ -9,10 +9,11 @@
 import SwiftUI
 
 public extension View {
-    func RDViewSizer(_ size: Binding<CGSize>) -> some View {
+    func RDViewSizer(_ size: Binding<CGSize>, ignoresSafeArea regions: SafeAreaRegions = []) -> some View {
         self
             .background {
                 MeasureView(size: size)
+                    .ignoresSafeArea(regions)
             }
     }
 }
