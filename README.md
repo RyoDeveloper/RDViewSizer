@@ -1,5 +1,8 @@
 # RDViewSizer
 
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FRyoDeveloper%2FRDViewSizer%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/RyoDeveloper/RDViewSizer)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FRyoDeveloper%2FRDViewSizer%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/RyoDeveloper/RDViewSizer)
+
 Binds the View's Size to the provided CGSize.
 
 ```swift
